@@ -9,6 +9,16 @@ Returns Correct Word Prediction from Kabeers Network Words DataSet. ( 2 Million 
 -----
 
 ```
+http://docs-kabeersnetwork-kview-app-sta.rf.gd/notes/ml/predictive/index.php?key=[Word Even Mis spelled]
+```
+Picks 2800 random words from Kabeers Network Words DataSet ( 2 Million Words) (To Improve Performance) and Checks if Matches.
+Sample Response:
+```
+Input word: produc Did you mean: product?
+```
+-----
+
+```
 http://docs-kabeersnetwork-kview-app-sta.rf.gd/notes/ml/predictive/V2/?n=[Integer To Get Words]
 ```
 Returns Words With Predictive Alphabets from Kabeers Network Popular Words DataSet. ( 10 000 Words )
